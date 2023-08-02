@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+    <style>
+      div {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/html/230731H/heaviest_birds.html" method="get">
+      <div>
+        <!-- input 은 label과 함께 써줘야 함 label for값은 input에 name,id 값과 동일하게 설정해줘야 함  -->
+        <label for="name">Enter a user name :</label>
+        <input type="text" placeholder="username" name="name" id="name" />
+      </div>
+      <div>
+        <label for="secret">Please give your password :</label>
+        <input
+          type="password"
+          placeholder="password"
+          name="secret"
+          id="secret"
+        />
+      </div>
+      <div>
+        <label for="color">What's your favorite color :</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <div>
+        <label for="select number">press the number please :</label>
+        <input
+          type="number"
+          placeholder="enter a number"
+          name="select number"
+          id="select number"
+        />
+      </div>
+      <div>
+        <label for="dance">Do you like dance</label>
+        <input type="checkbox" name="dance" id="dance" />
+      </div>
+      <br />
+      <!-- form 태그 안에 사용되지만 type button을 함으로써 버튼에 의미를 둠 -->
+      <button type="button">Regular button(won't submit)</button>
+      <!-- from 태그 안에 있을 시 button의 type은 기본인 submit 속성이 적용 -->
+      <button>Submit!!!</button>
+      <!-- input 태그로 제출을 할 수 있지만 텍스트를 바꾸는 데 불편함이 있다. -->
+      <input type="submit" value="Click me!" />
+    </form>
+    <hr />
+    <!-- form 외부에 있는 button은 그냥 type이 button이다. 단순 버튼으로 사용 -->
+    <button>not enter the submit</button>
+  </body>
+</html>
