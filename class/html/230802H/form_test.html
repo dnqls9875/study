@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+  </head>
+  <body>
+    <h1>Race Registration!</h1>
+
+    <form action="https://www.google.com/search">
+      <div class="name_box">
+        <span class="name fisrt">
+          <label for="first">First Name </label>
+          <input type="text" name="fisrt" id="first" required />
+        </span>
+        <span class="name last">
+          <label for="last">Last Name</label>
+          <input type="text" name="last" id="last" required />
+        </span>
+      </div>
+      <div class="radiobox" style="margin-top: 30px">
+        <div class="radiobox_01">
+          <input type="radio" name="course" id="course" />
+          <label for="course">Fun Run 5k</label>
+        </div>
+        <div class="radiobox_02">
+          <input type="radio" name="course" id="course" />
+          <label for="course">Half Marathone</label>
+        </div>
+        <div class="radiobox_03">
+          <input type="radio" name="course" id="course" />
+          <label for="course">Full Marathone</label>
+        </div>
+      </div>
+      <div class="email-box">
+        <span class="email-box_id">
+          <label for="Email">Email</label>
+          <input type="email" name="Email" id="Email" required />
+        </span>
+        <span class="email-box_password">
+          <label for="Password">Password</label>
+          <input type="password" name="Password" id="Password" required />
+        </span>
+      </div>
+      <div class="select-group">
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+          <option value="under 18">under 18</option>
+          <option value="20 to 30">20 to 30</option>
+          <option value="40 to 50">40 to 50</option>
+        </select>
+      </div>
+      <button>Register!</button>
+    </form>
+  </body>
+</html>
