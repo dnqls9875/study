@@ -1,0 +1,30 @@
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-color: rgba(1, 8, 81, 0.66);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box01 {
+  background-color: rgb(90, 240, 155);
+}
+.box02 {
+  background-color: rgb(23, 229, 218);
+}
+.box03 {
+  background-color: rgb(19, 123, 234);
+}
+.box04 {
+  background-color: rgb(17, 103, 200);
+}
+.box05 {
+  background-color: rgb(145, 59, 250);
+}

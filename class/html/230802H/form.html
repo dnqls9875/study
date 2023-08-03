@@ -55,5 +55,49 @@
     <hr />
     <!-- form 외부에 있는 button은 그냥 type이 button이다. 단순 버튼으로 사용 -->
     <button>not enter the submit</button>
+
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" id="q" />
+      <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search Google</button>
+    </form>
+    <form action="https://www.youtube.com/search">
+      <input type="text" name="q" />
+      <button>Search Youtube</button>
+    </form>
+
+    <h2>More Input!</h2>
+    <form action="/birds">
+      <label for="agree">I agree to everything</label>
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <div>
+        <!-- 값을 전송하기 위해서는 value 값이 중요하다 -->
+        <!-- 값을 묶기 위해서는 name 값을 입력해야 한다. -->
+        <label for="s">S :</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="m">M :</label>
+        <input type="radio" name="size" id="m" value="m" />
+        <label for="l">L :</label>
+        <input type="radio" name="size" id="l" value="l" />
+      </div>
+      <button>Submit</button>
+
+      <div>
+        <label for="food">음식을 골라주세요.</label>
+        <select name="wedding" id="food">
+          <!-- value값 옆 selectd를 입력하면 해당 내용으로 가장 먼저 노출  -->
+          <option value="메인">메인요리 목록입니다.</option>
+          <option value="떡볶이">떡볶이</option>
+          <option value="순대">순대</option>
+          <option value="잔치국수">잔치국수</option>
+          <option value="갈비찜">갈비찜</option>
+          <option value="김밥">김밥</option>
+          <option value="초밥">초밥</option>
+        </select>
+      </div>
+    </form>
   </body>
 </html>
