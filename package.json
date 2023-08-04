@@ -1,0 +1,19 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "Web Developer 수업 스터디 공간입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnqls9875/study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnqls9875/study/issues"
+  },
+  "homepage": "https://github.com/dnqls9875/study#readme"
+}
