@@ -1,0 +1,69 @@
+body {
+  background-color: #f1faee;
+}
+
+/* * 전체 선택자 */
+/* * {
+  background-color: cyan;
+} */
+/* * 요소 선택자 */
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+/* * 요소를 두개 이상 ,로 표시 */
+h1,
+h2 {
+  color: #1d3577;
+}
+
+/* ? id는 최소화 하자 */
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+/* ?요소  */
+span {
+  color: #457d9d;
+}
+
+/* ? class 선택자 */
+.tag {
+  background-color: red;
+  color: #f1faee;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+/* ? post class를 사용하는 하단 밑 a들 모두 */
+.post a {
+  color: #457d9d;
+}
+
+/* ? footer 아래있는 a 모두 */
+footer a {
+  color: red;
+}
+
+/* ? h2 와 동일선상에 있는 button */
+h2 + button {
+  font-size: 20px;
+}
+
+/* ? footer 바로 뒤 a에게만 */
+footer > a {
+  color: #457d9d;
+}
+
+/* .post {
+  background-color: purple;
+} */
+/* ! === 동일함 */
+section[class="post"] {
+  background-color: purple;
+}
+
+a[href*="google"] {
+  color: magenta;
+}
