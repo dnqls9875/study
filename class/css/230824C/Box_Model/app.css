@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 200px;
+  background-color: pink;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.box {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+span {
+  padding-left: 30px;
+}
+
+.one {
+  border: 5px solid #000;
+  background-color: #e5989b;
+  margin: 0 0 0 50px;
+}
+.two {
+  border: 5px dashed rgb(235, 176, 169);
+  background-color: #fdb6ff;
+  margin: 200px;
+  padding-right: 50px;
+}
+.three {
+  border: 5px solid #000;
+  border-radius: 50%;
+  background-color: #525252;
+}
+
+button {
+  padding: 10px 20px 30px 40px;
+}
