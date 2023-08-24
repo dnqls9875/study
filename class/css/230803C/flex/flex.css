@@ -1,6 +1,8 @@
 .flex-wrap {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
   width: 1200px;
   height: 500px;
   background-color: rgba(1, 8, 81, 0.66);
@@ -18,6 +20,7 @@
 }
 .box02 {
   background-color: rgb(23, 229, 218);
+  /* align-self: flex-start; */
 }
 .box03 {
   background-color: rgb(19, 123, 234);

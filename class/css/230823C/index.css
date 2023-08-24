@@ -51,19 +51,43 @@ h2 + button {
   font-size: 20px;
 }
 
+.post button:hover {
+  background-color: orange;
+  transition: all 0.5s;
+  color: #fff;
+}
+
 /* ? footer 바로 뒤 a에게만 */
 footer > a {
   color: #457d9d;
 }
 
-/* .post {
+/* ! === 동일함 */
+/* section[class="post"] {
   background-color: purple;
 } */
-/* ! === 동일함 */
-section[class="post"] {
-  background-color: purple;
+
+.post:nth-of-type(3n) {
+  background-color: #dfe8dc;
 }
 
 a[href*="google"] {
   color: magenta;
 }
+
+.post button:active {
+  background-color: cadetblue;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+/* * Inline style > ID > class > element  css 적용 우선순위 */
+/* ! inline style은 최대한 사용하지 않는게 좋다. , !important */
