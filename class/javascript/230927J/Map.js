@@ -27,9 +27,9 @@ const fullNames = [
   { first: "Severus", last: "Snape" },
 ];
 
-// const firstNames = fullNames.map(function (fsn) {
-//   return fsn.first.toUpperCase();
-// });
+const firstNames = fullNames.map(function (fsn) {
+  return fsn.first.toUpperCase();
+});
 
 // const firstNames = fullNames.map((fsn) => {
 //   return fsn.first.toUpperCase();
@@ -39,9 +39,9 @@ const fullNames = [
 //   return x + y;
 // };
 
-const add = (x, y) => {
-  return x + y;
-};
+// const add = (x, y) => {
+//   return x + y;
+// };
 
 const square = (x) => {
   return x ** 3;
