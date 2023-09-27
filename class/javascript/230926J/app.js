@@ -40,3 +40,20 @@ const square = function multiply(num) {
 
 square(4); //16
 square(3); //9
+
+// 오류가 났을 때
+// try {
+//   hello.toLocaleUpperCase();
+// } catch {
+//   console.log(`ERROR!!!`);
+// }
+
+// console.log("After!");
+
+function yell(msg) {
+  try {
+    console.log(msg.toUpperCase().repeat(3));
+  } catch (e) {
+    console.log("Please pass a string next time!");
+  }
+}
