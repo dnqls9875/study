@@ -17,6 +17,14 @@ const movieTit = movies.map(function (movie) {
   return movie.title;
 });
 
+// const newMovies = movies.map(function (movie) {
+//   return `${movie.title} - ${movie.score / 10}`;
+// });
+
+const newMovies = movies.map((movie) => {
+  `${movie.title} - ${movie.score / 10}`;
+});
+
 const fullNames = [
   { fullName: "Hagrid", last: "Dumbledore" },
   { first: "Harry", last: "Potter" },
