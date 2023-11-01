@@ -1,8 +1,8 @@
-const allLinks = document.querySelectorAll("a");
+// const allLinks = document.querySelectorAll("a");
 
-for (let link of allLinks) {
-  link.innerText = "I am A Link!!!";
-}
+// for (let link of allLinks) {
+//   link.innerText = "I am A Link!!!";
+// }
 
 const imgPick = document.querySelector("img");
 imgPick.src = "https://devsprouthosting.com/images/chicken.jpg";
