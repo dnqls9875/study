@@ -7,17 +7,37 @@
 
 // 4. 랜덤 컬러 함수 생성
 
-const btn = document.querySelector("button");
-const h1 = document.querySelector("h1");
+// const button = document.querySelector("button");
+// const h1 = document.querySelector("h1");
+// const body = document.querySelector("body");
 
-btn.addEventListener("click", function () {
-  document.body.style.backgroundColor = randomColor();
-  h1.innerText = randomColor();
-});
+// const colorSelectorBtn = () => {
+//   body.style.backgroundColor = randomColor();
+//   h1.innerText = randomColor();
+// };
 
-const randomColor = function () {
-  const r = Math.floor(Math.random() * 255);
-  const g = Math.floor(Math.random() * 255);
-  const b = Math.floor(Math.random() * 255);
-  return `rgb(${r},${g},${b})`;
+// const randomColor = () => {
+//   const r = Math.floor(Math.random() * 255);
+//   const g = Math.floor(Math.random() * 255);
+//   const b = Math.floor(Math.random() * 255);
+//   return `rgb(${r},${g},${b})`;
+// };
+
+// button.addEventListener("click", colorSelectorBtn);
+
+const select = document.querySelector("select");
+const html = document.querySelector("html");
+document.body.style.padding = "10px";
+
+function colorSelector(bgColor, textColor) {
+  html.style.backgroundColor = bgColor;
+  html.style.color = textColor;
+}
+
+select.onchange = function () {
+  if (select.value === "black") {
+    colorSelector("black", "white");
+  } else {
+    colorSelector("white", "black");
+  }
 };
